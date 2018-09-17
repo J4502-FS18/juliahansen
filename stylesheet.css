@@ -7,8 +7,14 @@ body{
   list-style-type: none;
   text-align: center;
   width:100%;
-  padding: 0;
+  padding: 5px;
   background-color: #8CA9A1
   margin: 0 auto;
   border:2px solid #FDFFFE
 }
+
+#nav a:link, nav a:visited{
+  color: #FDFFFE
+  font-weight: bold;
+  text-decoration: none;
+  }
