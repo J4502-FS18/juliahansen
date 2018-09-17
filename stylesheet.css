@@ -1,12 +1,13 @@
 body{
   text-align: center;
+  background-color: #B2AA93
 }
 
 #nav{
   list-style-type: none;
   text-align: center;
   width:100%;
-  padding: 5px;
+  padding: 0;
   background-color: #8CA9A1
   margin: 0 auto;
   border:2px solid #FDFFFE
