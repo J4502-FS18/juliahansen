@@ -8,13 +8,28 @@ body{
   text-align: center;
   width:100%;
   padding: 5px;
-  background-color: #8CA9A1
-  margin: 0 auto;
-  border:2px solid #FDFFFE
+  background-color: #8CA9A1;
+  margin: 3px auto;
+  border-bottom:2px solid #FDFFFE
 }
 
 #nav a:link, nav a:visited{
-  color: #FDFFFE
+  display: block;
+  color: #302F2B;
+  background-color: #8CA9A1;
   font-weight: bold;
   text-decoration: none;
+  padding: 4px;
+  font-family:
+  }
+
+  #nav li{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #FDFFFE;
+    text-decoration: none;
+  }
+
+  #nav a:hover, a:active{
+    background-color: #C8AFCC;
   }
