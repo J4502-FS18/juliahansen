@@ -13,7 +13,7 @@
 }
 
 body{
-  background-color: #AC70AB;
+  background-color: #FFFFFF;
 }
 
 #container{
@@ -51,7 +51,7 @@ p{
   }
 
   nav a:link, nav a:visited{
-    color: #AC70AB;
+    color: #FFFFFF;
     font-weight: bold;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
