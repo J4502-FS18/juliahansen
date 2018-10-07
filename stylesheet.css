@@ -36,12 +36,12 @@ ul{
   font-size: 16px;
 }
 
-#nav{
+nav{
   list-style-type: none;
   text-align: center;
 }
 
-#nav a:link, nav a:visited{
+nav a:link, nav a:visited{
   display: block;
   color: #302F2B;
   background-color: #8CA9A1;
@@ -51,14 +51,14 @@ ul{
   padding: 4px;
   }
 
-  #nav li{
+  nav li{
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #FDFFFE;
     text-decoration: none;
   }
 
-  #nav a:hover, a:active{
+  nav a:hover, a:active{
     background-color: #C8AFCC;
   }
 
