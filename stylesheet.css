@@ -14,7 +14,7 @@
 
 body{
   text-align: center;
-  background-color: #B2AA93;
+  background-color: #FFF3DA;
   width: 95%;
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ p{
     text-align: center;
     width: 100%
     padding: 5px;
-    background-color: #98bf21;
+    background-color: #86CCAE;
     margin: 0 auto;
     border: 2px solid #ffffff;
   }
@@ -53,7 +53,7 @@ p{
     }
 
   nav a:hover, a:active{
-    background-color: #C8AFCC;
+    background-color: #7EB29C;
   }
 
   img{
