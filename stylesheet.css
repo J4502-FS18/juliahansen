@@ -1,3 +1,17 @@
+@@font-face {
+  font-family: "Merriweather";
+  src:url("https://fonts.googleapis.com/css?family=Merriweather")
+}
+@@font-face {
+  font-family: "Raleway";
+  src:url("https://fonts.googleapis.com/css?family=Raleway");
+}
+
+@@font-face {
+  font-family: "Oswald";
+  src:url("https://fonts.googleapis.com/css?family=Oswald");
+}
+
 body{
   text-align: center;
   background-color: #B2AA93;
@@ -7,10 +21,19 @@ body{
 
 h1{
   color: #302F2B;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
 }
 
 p{
   color: #302F2B;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+ul{
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
 }
 
 #nav{
@@ -42,5 +65,3 @@ p{
   img{
     border: 0;
   }
-
-  
