@@ -64,3 +64,10 @@ p{
   img{
     border: 0;
   }
+
+  .link{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #302F2B;
+  }
