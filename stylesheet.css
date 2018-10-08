@@ -48,10 +48,13 @@ p{
 
   nav ul{
     padding: 0;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-wrap: column wrap;
+    justify-content: space-around;
+    align-items: center, stretch;
+    align-content: space-around;
   }
 
   nav a:link, nav a:visited{
