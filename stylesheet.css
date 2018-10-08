@@ -83,15 +83,3 @@ header{
     font-size: 20px;
     color: #302F2B;
   }
-
-  @media all and (min-width: 800px){
-    nav ul{
-      flex-direction: row;
-    }
-  }
-
-  @media all and (max-width:500px){
-    nav ul {
-      flex-direction: column;
-    }
-  }
