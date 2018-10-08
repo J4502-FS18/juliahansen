@@ -47,6 +47,7 @@ p{
     margin: 0 auto;
     border: 2px solid #AC70AB;
     align-self: stretch;
+    flex-direction: row;
   }
 
   nav ul{
