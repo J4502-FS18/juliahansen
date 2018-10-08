@@ -15,6 +15,7 @@
 
 body{
   background-color: #FFFFFF;
+    display: flex;
 }
 
 #container{
@@ -35,10 +36,6 @@ p{
   color: #302F2B;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-}
-
-nav{
-    display: flex;
 }
 
   nav li{
