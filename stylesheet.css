@@ -22,7 +22,6 @@ body{
   width: 90%;
   margin: 0 auto;
   padding: 10px 25px;
-  display: flex;
 }
 
 h1{
@@ -36,6 +35,10 @@ p{
   color: #302F2B;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+}
+
+nav{
+    display: flex;
 }
 
   nav li{
