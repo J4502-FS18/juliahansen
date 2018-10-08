@@ -24,6 +24,10 @@ body{
   padding: 10px 25px;
 }
 
+header{
+  display: flex;
+}
+
 h1{
   color: #302F2B;
   font-family: "Merriweather", serif;
@@ -35,10 +39,6 @@ p{
   color: #302F2B;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-}
-
-header{
-  display: flex;
 }
 
   nav li{
@@ -54,6 +54,7 @@ header{
   }
 
   nav ul{
+    display: flex;
     padding: 0;
     flex-direction: row;
     flex-wrap: row wrap;
