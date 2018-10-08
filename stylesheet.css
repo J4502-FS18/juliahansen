@@ -12,9 +12,16 @@
   src:url("https://fonts.googleapis.com/css?family=Oswald");
 }
 
+
 body{
   background-color: #FFFFFF;
   display: flex;
+}
+
+@mediaalland (max width: 500px){
+  nav{
+    flex-direction: column;
+  }
 }
 
 #container{
@@ -77,4 +84,13 @@ p{
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #302F2B;
+  }
+
+  .item1{
+    width: 30px;
+    height: 20px;
+    margin: auto;
+    align-self: stretch;
+    flex-grow: 2;
+    flex-basis: auto;
   }
