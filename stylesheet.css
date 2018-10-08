@@ -58,7 +58,6 @@ p{
     display: flex;
     padding: 0;
     flex-direction: row;
-    flex-wrap: row wrap;
     justify-content: space-around;
     align-content: space-around;
   }
