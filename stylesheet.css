@@ -133,5 +133,33 @@ h1{
   }
 
   @media screen and (min-width: 1000px){
+    #container{
+      width: 90%;
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr;
+      grid-gap:60px;
+      grid-template-areas:
+      "a d c c"
+      "b d c c"
+      ". . e e"
+    }
 
+    h1{
+      grid-area: a;
+    }
+
+    .nav{
+      grid-area:b;
+    }
+
+    .article{
+      grid-area:c;
+    }
+
+    .image{
+      grid-area: d;
+    }
+    .link-2{
+      grid-area: e;
+    }
   }
