@@ -34,7 +34,7 @@ h1{
   text-align: center;
 }
 
-p{
+.article{
   color: #302F2B;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
@@ -95,5 +95,5 @@ p{
   }
 
   @media screen and (min-width: 1000px){
-    
+
   }
