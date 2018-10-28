@@ -96,6 +96,29 @@ h1{
   @media screen and (min-width: 800px) {
     #container{
       width: 85%;
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr;
+      grid-gap:20px;
+      grid-template-areas:
+      "a a a"
+      "b b c"
+      ". d c"
+    }
+
+    h1{
+      grid-area: a;
+    }
+
+    .nav{
+      grid-area:b;
+    }
+
+    .article{
+      grid-area:c;
+    }
+
+    .link{
+      grid-area: d;
     }
   }
 
