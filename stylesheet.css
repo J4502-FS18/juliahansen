@@ -26,10 +26,6 @@ body{
   padding: 10px 25px;
 }
 
-header{
-  display: flex;
-  flex-wrap: wrap;
-}
 
 h1{
   color: #302F2B;
@@ -56,8 +52,9 @@ p{
     flex-direction: row;
   }
 
-  nav ul{
+  .nav{
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     flex-direction: row;
     justify-content: space-around;
