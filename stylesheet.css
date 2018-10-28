@@ -54,7 +54,7 @@ h1{
     display: flex;
     height: 100px;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 200px;
   }
 
@@ -84,13 +84,13 @@ h1{
   @media screen and (min-width: 600px){
     .nav{
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
     }
   }
 
   @media screen and (min-width: 800px) {
     #container{
-      width: 80%;
+      width: 85%;
     }
   }
 
