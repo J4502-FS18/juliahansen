@@ -58,7 +58,7 @@ p{
     padding: 0;
     flex-direction: row;
     justify-content: space-around;
-    align-content: space-around;
+    align-items: stretch;
   }
 
   nav a:link, nav a:visited{
