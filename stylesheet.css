@@ -84,14 +84,6 @@ p{
     color: #302F2B;
   }
 
-  .item-1{
-    align-self: auto;
-  }
-
-  .item-2{
-    align-self: auto;
-  }
-
   @media screen and (min-width: 600px){
     .nav{
       flex-direction: row;
