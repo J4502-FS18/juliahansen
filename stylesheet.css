@@ -54,7 +54,6 @@ h1{
 
   .nav{
     display: flex;
-    height: 70px;
     flex-flow: column wrap;
     justify-content: space-between;
     padding-bottom: 200px;
@@ -87,6 +86,7 @@ h1{
     .nav{
       flex-flow: row wrap;
       justify-content: center;
+      height: 20px;
     }
     #container{
       width:95%;
@@ -94,15 +94,18 @@ h1{
   }
 
   @media screen and (min-width: 800px) {
+    .nav{
+      height: 70px;
+    }
     #container{
       width: 85%;
       display: grid;
       grid-template-columns: 200px 1fr 1fr;
       grid-gap:20px;
       grid-template-areas:
-      "a a b"
-      "d c b"
+      "a b c"
       "d c c"
+      "d . e"
     }
 
     h1{
@@ -119,6 +122,9 @@ h1{
 
     .image{
       grid-area: d;
+    }
+    .link-2{
+      grid-area: e;
     }
   }
 
