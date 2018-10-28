@@ -21,7 +21,7 @@ body{
 
 #container{
   background-color: #Fff3DA;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 10px 25px;
 }
@@ -55,8 +55,8 @@ h1{
   .nav{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
-    padding-bottom: 200px;
+    justify-content: center;
+    padding-bottom: 50px;
   }
 
   nav a:link, nav a:visited{
@@ -73,6 +73,7 @@ h1{
   img{
     border: 0;
     flex-shrink: 1;
+    flex-wrap: wrap;
   }
 
   .link{
@@ -82,11 +83,11 @@ h1{
     color: #302F2B;
   }
 
-  @media screen and (min-width: 600px){
+  @media screen and (max-width: 600px){
     .nav{
       flex-flow: row wrap;
       justify-content: center;
-      height: 20px;
+      flex-shrink: 2;
     }
     #container{
       width:95%;
@@ -95,17 +96,20 @@ h1{
 
   @media screen and (min-width: 800px) {
     .nav{
-      height: 70px;
+      height: 40px;
+      flex-flow: row wrap;
+      justify-content: center;
+      flex-shrink: 2;
     }
     #container{
-      width: 85%;
+      width: 90%;
       display: grid;
       grid-template-columns: 200px 1fr 1fr;
-      grid-gap:20px;
+      grid-gap:60px;
       grid-template-areas:
-      "a b c"
-      "d c c"
-      "d . e"
+      "a d c"
+      "b d c"
+      ". e c"
     }
 
     h1{
