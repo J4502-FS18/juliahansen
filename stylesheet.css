@@ -127,7 +127,7 @@ h1{
     .image{
       grid-area: d;
     }
-    .link-2{
+    .link{
       grid-area: e;
     }
   }
@@ -139,9 +139,9 @@ h1{
       grid-template-columns: 200px 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      "a d . ."
-      "b d c c"
-      ". e c c"
+      "a d . c"
+      ". d . c"
+      "b e e c"
     }
 
     h1{
@@ -160,7 +160,7 @@ h1{
     .image{
       grid-area: d;
     }
-    .link-2{
+    .link{
       grid-area: e;
     }
   }
