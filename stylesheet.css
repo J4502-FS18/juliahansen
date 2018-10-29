@@ -27,7 +27,7 @@ body{
 }
 
 
-h1{
+.title{
   color: #302F2B;
   font-family: "Merriweather", serif;
   font-size: 48px;
@@ -112,7 +112,7 @@ h1{
       ". e c"
     }
 
-    h1{
+    .title{
       grid-area: a;
     }
 
@@ -136,15 +136,15 @@ h1{
     #container{
       width: 90%;
       display: grid;
-      grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+      grid-template-columns: 200px 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      "a e f g h"
-      "c . b b b"
-      "d . b b b"
+      ". a c c"
+      "d . c c"
+      "e b . ."
     }
 
-    h1{
+    .title{
       grid-area: a;
     }
 
