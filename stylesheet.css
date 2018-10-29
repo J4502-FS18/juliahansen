@@ -107,9 +107,9 @@ body{
       grid-template-columns: 200px 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      "a d c"
-      "b d c"
-      ". e c"
+      "a a a"
+      "d b c"
+      "e . c"
     }
 
     .title{
@@ -139,9 +139,9 @@ body{
       grid-template-columns: 200px 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      ". a c c"
-      "d . c c"
-      "e b . ."
+      ". a a ."
+      "d b c c"
+      "e . c c"
     }
 
     .title{
