@@ -104,12 +104,12 @@ body{
     #container{
       width: 90%;
       display: grid;
-      grid-template-columns: 200px 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
       "a a a"
-      "d b c"
-      "e . c"
+      "d c b"
+      "e c ."
     }
 
     .title{
@@ -122,10 +122,12 @@ body{
 
     .article{
       grid-area:c;
+      display: block;
     }
 
     .image{
       grid-area: d;
+      max-width: 100px;
     }
     .link{
       grid-area: e;
@@ -139,8 +141,8 @@ body{
       grid-template-columns: 200px 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      ". a a ."
-      "d b c c"
+      "a a a b"
+      "d . c c"
       "e . c c"
     }
 
@@ -154,7 +156,8 @@ body{
 
     .article{
       grid-area:c;
-      max-width: 2fr;
+      max-width: 600px;
+      grid-column-start: 4;
     }
 
     .image{
