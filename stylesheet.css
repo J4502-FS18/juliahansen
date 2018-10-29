@@ -72,8 +72,8 @@ h1{
 
   img{
     border: 0;
-    flex-shrink: 1;
     flex-wrap: wrap;
+    max-width: 300px;
   }
 
   .link{
@@ -139,9 +139,9 @@ h1{
       grid-template-columns: 200px 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      "a d c c"
+      "a d . ."
       "b d c c"
-      ". . e e"
+      ". e c c"
     }
 
     h1{
@@ -154,6 +154,7 @@ h1{
 
     .article{
       grid-area:c;
+      max-width: 2fr;
     }
 
     .image{
