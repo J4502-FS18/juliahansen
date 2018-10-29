@@ -136,12 +136,12 @@ h1{
     #container{
       width: 90%;
       display: grid;
-      grid-template-columns: 200px 1fr 1fr 1fr;
+      grid-template-columns: 200px 1fr 1fr 1fr 1fr;
       grid-gap:60px;
       grid-template-areas:
-      "a a a b"
-      "d . c c"
-      "e . c c"
+      "a e f g h"
+      "c . b b b"
+      "d . b b b"
     }
 
     h1{
@@ -149,7 +149,7 @@ h1{
     }
 
     .nav{
-      grid-area:b;
+      grid-area: b;
     }
 
     .article{
@@ -163,4 +163,5 @@ h1{
     .link{
       grid-area: e;
     }
+
   }
