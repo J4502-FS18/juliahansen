@@ -32,6 +32,10 @@ body{
   font-family: "Merriweather", serif;
   font-size: 48px;
   text-align: center;
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  flex-flow: row;
 }
 
 .article{
@@ -40,7 +44,7 @@ body{
   font-size: 20px;
 }
 
-  nav li{
+  nav ul li{
     list-style-type: none;
     text-align: center;
     width: 100%;
@@ -49,6 +53,7 @@ body{
     margin: 0 auto;
     border-bottom: 2px solid;
     border-color: #AC70AB;
+    display: block;
   }
 
 
@@ -83,14 +88,47 @@ body{
     color: #302F2B;
   }
 
+  nav a{
+    color: #302F2B;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+  }
+
+  .menu-trigger{
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+  }
+
+header h1{
+  order: 2;
+  font-size: 2em;
+}
+
+nav ul{
+  display: none;
+}
+
   @media screen and (max-width: 600px){
     .nav{
       flex-flow: row wrap;
       justify-content: center;
       flex-shrink: 2;
+      order: 2;
     }
     #container{
       width:95%;
+    }
+    nav ul{
+      display: flex;
+    }
+
+    .menu-trigger{
+      display: none;
+    }
+    header h1{
+      order: 1;
     }
   }
 
