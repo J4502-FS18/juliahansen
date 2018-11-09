@@ -65,7 +65,7 @@ body{
   }
 
   nav a:link, nav a:visited{
-    color: #FFFFFF;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
@@ -99,6 +99,7 @@ body{
     order: 1;
     font-size: 1.75em;
     width: 2em;
+    color: black;
   }
 
 header h1{
@@ -110,11 +111,10 @@ nav ul{
   display: none;
 }
 
-  @media screen and (max-width: 600px){
+  @media screen and (min-width: 600px){
     .nav{
       flex-flow: row wrap;
       justify-content: center;
-      flex-shrink: 2;
       order: 2;
     }
     #container{
